@@ -1,0 +1,34 @@
+hg status
+hg diff
+cd ..
+more .hg/hgrc 
+cd ..
+hg status
+rm .HISTORY 
+hg status
+hg diff
+more pipe02.
+more pipe02.sh 
+hg commit
+hg push 
+cd ..
+hg tags
+hg diff -r 2
+cd ..
+hg tags
+hg tag manuscript_Freeze_Public_2.0.1
+hg status
+rm .HISTORY 
+hg status
+hg push
+cd ..
+echo DS:: Sat Aug 17 15:25:35 EDT 2013
+more pipe02.sh 
+cd ..
+more pipe02.sh 
+open pipe02.bin/spo11_Pipeline01.sh 
+subl pipe02.bin/spo11_Pipeline01.sh 
+mate pipe02.bin/spo11_Pipeline01.sh 
+mate pipe02.bin/sam2MapCheckClip.py 
+mate pipe02.bin/mergeMaps.sh 
+cd ..
